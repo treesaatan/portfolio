@@ -1,0 +1,46 @@
+/* brian design css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .about-me,
+  .projects,
+  .contact,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .projects {
+    background-image: "https://64.media.tumblr.com/1a75b3a07f785a57bc2a52baacddf0f6/tumblr_n1crv46as61sfwkzwo1_500.gif";
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .contact {
+    background-image: "https://64.media.tumblr.com/1a75b3a07f785a57bc2a52baacddf0f6/tumblr_n1crv46as61sfwkzwo1_500.gif";
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-image: "https://64.media.tumblr.com/1a75b3a07f785a57bc2a52baacddf0f6/tumblr_n1crv46as61sfwkzwo1_500.gif";
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
