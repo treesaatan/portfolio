@@ -34,7 +34,6 @@ function Footer() {
                   
                 </Link>
               </div>
-              <small class='website-rights'>treesaatan</small>
               <div class='social-icons'>
                 <Link
                   class='social-icon-link facebook'
@@ -45,28 +44,12 @@ function Footer() {
                   <i class='fab fa-facebook-f' />
                 </Link>
                 <Link
-                  class='social-icon-link instagram'
+                  class='social-icon-link github'
                   to='/'
                   target='_blank'
-                  aria-label='Instagram'
+                  aria-label='GitHub'
                 >
-                  <i class='fab fa-instagram' />
-                </Link>
-                <Link
-                  class='social-icon-link youtube'
-                  to='/'
-                  target='_blank'
-                  aria-label='Youtube'
-                >
-                  <i class='fab fa-youtube' />
-                </Link>
-                <Link
-                  class='social-icon-link twitter'
-                  to='/'
-                  target='_blank'
-                  aria-label='Twitter'
-                >
-                  <i class='fab fa-twitter' />
+                  <i class="fab fa-github-alt"></i>
                 </Link>
                 <Link
                   class='social-icon-link twitter'
