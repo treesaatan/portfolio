@@ -9,8 +9,7 @@
   
   .about-me,
   .projects,
-  .contact,
-  .sign-up {
+  .contact{
     display: flex;
     height: 90vh;
     align-items: center;
@@ -19,7 +18,7 @@
   }
   
   .projects {
-    background-image: "https://64.media.tumblr.com/1a75b3a07f785a57bc2a52baacddf0f6/tumblr_n1crv46as61sfwkzwo1_500.gif";
+    background-image: "https://i.pinimg.com/originals/4d/e4/cd/4de4cd4f761295859ae0e372cdeddd73.jpg";
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +27,7 @@
   }
   
   .contact {
-    background-image: "https://64.media.tumblr.com/1a75b3a07f785a57bc2a52baacddf0f6/tumblr_n1crv46as61sfwkzwo1_500.gif";
+    background-image: "https://i.pinimg.com/originals/4d/e4/cd/4de4cd4f761295859ae0e372cdeddd73.jpg";
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -36,11 +35,3 @@
     font-size: 100px;
   }
   
-  .sign-up {
-    background-image: "https://64.media.tumblr.com/1a75b3a07f785a57bc2a52baacddf0f6/tumblr_n1crv46as61sfwkzwo1_500.gif";
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }

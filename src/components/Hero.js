@@ -1,17 +1,15 @@
-import React from 'react'
-import './styles/Hero.css'
+import React from 'react';
+// import { Button } from './Button';
+import "./styles/Hero.css";
+import "../App.css";
 
 function Hero() {
     return (
         <div className="hero-container">
-            {/* <video src="" autoPlay loop muted/> */}
-            <h1>The Video</h1>
-            <p>This will be a place where I can show a video of how a project works</p>
-            <div className="hero-btns">
-                <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
-                    GET STARTED
-                </Button>
-            </div>
+            <video src="../../public/videos/temp.mp4" autoPlay loop muted/>
+            <h1>Hello, my name is Theresa</h1>
+            <p>Currently majoring in Computer Science B.S. @ <a href="https://www.ucsc.edu/" className="college">UCSC</a></p>
+            <p>*This website is in the process of being created & personalized</p>
         </div>
     )
 }
