@@ -2,11 +2,13 @@ import React from "react";
 import "./styles/Cards.css";
 import CardItem from "./CardItem";
 import Smiley from "../assets/images/smiley.jpg";
+import CraveusStart from "../assets/images/craveus_start.png";
+import ForumWebsite from "../assets/images/post_comment6.0.png";
 
 function Cards() {
   return (
     <div className="cards">
-      <h1>looky looky probably links to projects</h1>
+      <h1>Projects</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -19,17 +21,17 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src={Smiley}
-              text="be happy"
-              label="happiness"
+              src={CraveusStart}
+              text="Craveus"
+              label="A Yelp-Clone"
               path="/projects"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src={Smiley}
-              text=":-D"
-              label="the smile"
+              src={ForumWebsite}
+              text="Forum Website"
+              label="Full-Stack Development"
               path="/projects"
             />
           </ul>

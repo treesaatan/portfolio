@@ -8,6 +8,7 @@ function Home () {
     return (
         <React.Fragment>
             <Hero />
+                <p> This is the Home.js file and I am here to talk about me</p>
             <Cards />
             <Footer />
         </React.Fragment>

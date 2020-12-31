@@ -1,6 +1,7 @@
 // rfce command to get starter react code
 import React, { useState, useEffect } from 'react';
 // import { Button } from './Button';
+// import Scroll from 'react-scroll';
 import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
 
@@ -10,21 +11,6 @@ function Navbar() {
     // const [button, setButton] = useState(true);
     const handleClick = () => setClick(!click); // set click state to the opposite
     const closeMobileMenu = () => setClick(false);
-
-    // If screen is <=960, hamburger 
-    // const showButton = () => {
-    //     if(window.innerWidth <= 960) {
-    //         setButton(false);
-    //     } else {
-    //         setButton(true);
-    //     }
-    // };
-
-    // useEffect(() => {
-    //     showButton();
-    //   }, []);
-
-    // window.addEventListener('resize', showButton);
 
     return (
         <React.Fragment>
@@ -53,8 +39,6 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {/* If button is true, return Button  */}
-                    {/* {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}  */}
                 </div>
             </nav>
         </React.Fragment>

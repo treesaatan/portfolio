@@ -8,8 +8,8 @@ video {
   
   /* where the image goes */
   .hero-container {
-    background-color: rgb(34, 33, 33);
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    /* background-color: rgb(34, 33, 33); */
+    background: url('../../assets/images/fallingbackground.gif') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
