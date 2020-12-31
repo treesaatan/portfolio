@@ -1,5 +1,5 @@
 // rfce command to get starter react code
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 // import { Button } from './Button';
 // import Scroll from 'react-scroll';
 import { Link } from 'react-router-dom';

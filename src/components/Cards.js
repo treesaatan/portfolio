@@ -2,8 +2,8 @@ import React from "react";
 import "./styles/Cards.css";
 import CardItem from "./CardItem";
 import Smiley from "../assets/images/smiley.jpg";
-import CraveusStart from "../assets/images/craveus_start.png";
-import ForumWebsite from "../assets/images/post_comment6.0.png";
+import CraveusStart from "../assets/images/craveus_start_card.png";
+import ForumWebsite from "../assets/images/post_comment6.0_card.png";
 
 function Cards() {
   return (
@@ -18,24 +18,18 @@ function Cards() {
               label="no worries"
               path="/projects"
             />
-          </ul>
-          <ul className="cards__items">
             <CardItem
               src={CraveusStart}
               text="Craveus"
               label="A Yelp-Clone"
               path="/projects"
             />
-          </ul>
-          <ul className="cards__items">
             <CardItem
               src={ForumWebsite}
               text="Forum Website"
               label="Full-Stack Development"
               path="/projects"
             />
-          </ul>
-          <ul className="cards__items">
             <CardItem
               src={Smiley}
               text=":-DDDD"

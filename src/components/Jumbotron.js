@@ -1,11 +1,11 @@
 import React from 'react';
 // import { Button } from './Button';
-import "./styles/Hero.css";
+import "./styles/Jumbotron.css";
 import "../App.css";
 
-function Hero() {
+function Jumbotron() {
     return (
-        <div className="hero-container">
+        <div className="jumbotron-container">
             <video src="../../public/videos/temp.mp4" autoPlay loop muted/>
             <h1>Hello, my name is Theresa</h1>
             <p>Currently majoring in Computer Science B.S. @ <a href="https://www.ucsc.edu/" className="college">UCSC</a></p>
@@ -14,4 +14,4 @@ function Hero() {
     )
 }
 
-export default Hero
+export default Jumbotron
