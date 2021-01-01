@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f826edba6c02f15bf86945a0a9fe5530",
+    "revision": "7076573c04302434cca5bf817b59fcf3",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "bfcfc1641d0212fc93ec",
-    "url": "/portfolio/static/css/main.ad978138.chunk.css"
+    "revision": "a1c7cbd19c8f92859e34",
+    "url": "/portfolio/static/css/main.8434a9c9.chunk.css"
   },
   {
-    "revision": "168d6eda4dae2b954a07",
-    "url": "/portfolio/static/js/2.924cb606.chunk.js"
+    "revision": "d6998746ee1ec6d49d80",
+    "url": "/portfolio/static/js/2.d3be823b.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/portfolio/static/js/2.924cb606.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.d3be823b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bfcfc1641d0212fc93ec",
-    "url": "/portfolio/static/js/main.fd9b2907.chunk.js"
+    "revision": "a1c7cbd19c8f92859e34",
+    "url": "/portfolio/static/js/main.d54aaae5.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
     "url": "/portfolio/static/js/runtime-main.209c2d7e.js"
   },
   {
+    "revision": "2cff2f86fea19d5d9bb42c4d284f87ba",
+    "url": "/portfolio/static/media/aiping_logo_white.2cff2f86.png"
+  },
+  {
     "revision": "481fb3247243f46ab611d96f3b501269",
     "url": "/portfolio/static/media/craveus_start_card.481fb324.png"
+  },
+  {
+    "revision": "3b09b8c224dae00d7fc0d95e9ff14125",
+    "url": "/portfolio/static/media/hello.3b09b8c2.png"
   },
   {
     "revision": "6ddfb9e8e29bc7b9d10ae82bf29a0639",
