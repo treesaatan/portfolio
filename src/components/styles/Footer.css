@@ -132,6 +132,10 @@
     margin-bottom: 16px;
   }
   
+  .logo {
+    width: 3rem;
+    /* margin: 1rem; */
+  }
   
   @media screen and (max-width: 820px) {
     .footer-links {
@@ -153,9 +157,9 @@
     .social-media-wrap {
       flex-direction: column;
     }
+
+    a.social-logo, img.logo {
+      margin: 0 .2rem 1rem 0;
+    }
   }
   
-  .logo {
-    width: 3rem;
-    /* margin: 1rem; */
-  }
