@@ -4,11 +4,13 @@ import Jumbotron from "../Jumbotron";
 import Cards from '../Cards';
 import Footer from '../Footer';
 
+import About from './About';
+
 function Home () {
     return (
         <React.Fragment>
             <Jumbotron />
-                <p> This is the Home.js file and I am here to talk about me</p>
+            <About />
             <Cards />
             <Footer />
         </React.Fragment>

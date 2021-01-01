@@ -2,6 +2,7 @@ import React from 'react'
 import "./styles/Footer.css";
 import {Button} from './Button';
 import {Link} from 'react-router-dom';
+import AipingLogo from "../assets/images/aiping_logo_white.png";
 
 function Footer() {
     return (
@@ -26,38 +27,38 @@ function Footer() {
             </div>
           </section>
           
-          <section class='social-media'>
-            <div class='social-media-wrap'>
-              <div class='footer-logo'>
+          <section className='social-media'>
+            <div className='social-media-wrap'>
+              <div className='footer-logo'>
                 <Link to='/' className='social-logo'>
-                <i class='fas fa-heart fa-xs' /><i class="far fa-hand-peace fa-xs"></i>
-                  
+                {/* <i class='fas fa-heart fa-xs' /><i class="far fa-hand-peace fa-xs"></i> */}
+                <img className="logo" src={AipingLogo} alt="logo"/>
                 </Link>
               </div>
-              <div class='social-icons'>
+              <div className='social-icons'>
                 <Link
-                  class='social-icon-link facebook'
+                  className='social-icon-link facebook'
                   to='/'
                   target='_blank'
                   aria-label='Facebook'
                 >
-                  <i class='fab fa-facebook-f' />
+                  <i className='fab fa-facebook-f' />
                 </Link>
                 <Link
-                  class='social-icon-link github'
+                  className='social-icon-link github'
                   to='/'
                   target='_blank'
                   aria-label='GitHub'
                 >
-                  <i class="fab fa-github-alt"></i>
+                  <i className="fab fa-github-alt"></i>
                 </Link>
                 <Link
-                  class='social-icon-link twitter'
+                  className='social-icon-link twitter'
                   to='/'
                   target='_blank'
                   aria-label='LinkedIn'
                 >
-                  <i class='fab fa-linkedin' />
+                  <i className='fab fa-linkedin' />
                 </Link>
               </div>
             </div>

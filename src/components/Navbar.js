@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 // import Scroll from 'react-scroll';
 import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
+import AipingLogo from "../assets/images/aiping_logo_white.png";
 
 function Navbar() {
 
@@ -17,7 +18,8 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        <i class='fas fa-heart fa-xs' /><i class="far fa-hand-peace fa-xs"></i>
+                        <img className="logo" src={AipingLogo} alt="logo" />
+                        {/* <i class='fas fa-heart fa-xs' /><i class="far fa-hand-peace fa-xs"></i> */}
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

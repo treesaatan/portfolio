@@ -21,7 +21,7 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -42,7 +42,7 @@
     text-align: center;
     width: 60vw;
     justify-content: end;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
   }
   
   .nav-item {
@@ -73,6 +73,11 @@
   
   .menu-icon {
     display: none;
+  }
+
+  .logo, img.logo {
+    width: 2.2rem;
+    margin: 0;
   }
   
   @media screen and (max-width: 960px) {
@@ -155,4 +160,10 @@
       color: #242424;
       transition: 250ms;
     }
+
+    .logo, img.logo {
+      width: 2.2rem;
+      margin: .29rem 0 0 1rem;
+    }
+
   }
