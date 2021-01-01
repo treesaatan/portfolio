@@ -36,30 +36,30 @@ function Footer() {
                 </Link>
               </div>
               <div className='social-icons'>
-                <Link
-                  className='social-icon-link facebook'
-                  to='/'
+                <a
+                  className='social-icon-link'
+                  href="https://www.facebook.com/theresa.tan.106/"
                   target='_blank'
                   aria-label='Facebook'
                 >
                   <i className='fab fa-facebook-f' />
-                </Link>
-                <Link
-                  className='social-icon-link github'
-                  to='/'
+                </a>
+                <a
+                  className='social-icon-link'
+                  href='https://github.com/treesaatan'
                   target='_blank'
                   aria-label='GitHub'
                 >
                   <i className="fab fa-github-alt"></i>
-                </Link>
-                <Link
-                  className='social-icon-link twitter'
-                  to='/'
+                </a>
+                <a
+                  className='social-icon-link'
+                  href="https://www.linkedin.com/in/theresaatan/"
                   target='_blank'
                   aria-label='LinkedIn'
                 >
                   <i className='fab fa-linkedin' />
-                </Link>
+                </a>
               </div>
             </div>
           </section>
