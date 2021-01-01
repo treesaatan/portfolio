@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "89f3fdf6ddae83a30792d56554126686",
+    "revision": "906b06a32325627e776a3a6bb381bd25",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e6ca75f4347149e6fc3c",
-    "url": "/portfolio/static/css/main.6c811259.chunk.css"
+    "revision": "6e2f8e50afa865586177",
+    "url": "/portfolio/static/css/main.b3ff6010.chunk.css"
   },
   {
     "revision": "d6998746ee1ec6d49d80",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.d3be823b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e6ca75f4347149e6fc3c",
+    "revision": "6e2f8e50afa865586177",
     "url": "/portfolio/static/js/main.d54aaae5.chunk.js"
   },
   {
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "481fb3247243f46ab611d96f3b501269",
     "url": "/portfolio/static/media/craveus_start_card.481fb324.png"
-  },
-  {
-    "revision": "3b09b8c224dae00d7fc0d95e9ff14125",
-    "url": "/portfolio/static/media/hello.3b09b8c2.png"
   },
   {
     "revision": "6ddfb9e8e29bc7b9d10ae82bf29a0639",
