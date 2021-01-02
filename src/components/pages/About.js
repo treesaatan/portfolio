@@ -5,6 +5,10 @@ function About() {
   return (
     <div>
       <h1>About Me</h1>
+      <h3>I am a Computer Science B.S. major at the University of California, Santa Cruz. 
+        I am currently interning as a Front-End Developer for Santa Crua Free Clinic. </h3>
+      <h3>What I enjoy most about computer science/programming is its ability to positively impact and enhance billions of lives, whether
+        that be through having personalized content or saving a few seconds of their time.</h3>
     </div>
   );
 }

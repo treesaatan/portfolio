@@ -1,3 +1,15 @@
 h1 {
     text-align: center;
   }
+
+h3 {
+  margin: 1rem 10.4rem;
+  letter-spacing: .03rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  h3 {
+    margin: 1rem 4rem;
+    letter-spacing: .03rem;
+  }
+}
