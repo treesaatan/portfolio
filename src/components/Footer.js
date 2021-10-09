@@ -41,6 +41,7 @@ function Footer() {
                   href="https://www.facebook.com/theresa.tan.106/"
                   target='_blank'
                   aria-label='Facebook'
+                  rel="noopener noreferrer"
                 >
                   <i className='fab fa-facebook-f' />
                 </a>
@@ -49,6 +50,7 @@ function Footer() {
                   href='https://github.com/treesaatan'
                   target='_blank'
                   aria-label='GitHub'
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-github-alt"></i>
                 </a>
@@ -57,6 +59,7 @@ function Footer() {
                   href="https://www.linkedin.com/in/theresaatan/"
                   target='_blank'
                   aria-label='LinkedIn'
+                  rel="noopener noreferrer"
                 >
                   <i className='fab fa-linkedin' />
                 </a>
