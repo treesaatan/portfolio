@@ -44,6 +44,11 @@
     color: rgb(252, 255, 66);
     text-decoration: none;
   }
+
+  .linkedin {
+    color: rgb(40,103,178);
+    text-decoration: none;
+  }
   
   @media screen and (max-width: 960px) {
     .jumbotron-container > h1 {
