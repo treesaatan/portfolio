@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.220339e7.chunk.css",
-    "main.js": "/portfolio/static/js/main.fb9d868f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fb9d868f.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4bad81d3.chunk.css",
+    "main.js": "/portfolio/static/js/main.529d2dfe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.529d2dfe.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.9825b6e7.chunk.js": "/portfolio/static/js/2.9825b6e7.chunk.js",
     "static/js/2.9825b6e7.chunk.js.map": "/portfolio/static/js/2.9825b6e7.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c2658ed97def124b8dcbea2064840a78.js": "/portfolio/precache-manifest.c2658ed97def124b8dcbea2064840a78.js",
+    "precache-manifest.fa512a0c33dc1ca274ae1fb2cfca4ba5.js": "/portfolio/precache-manifest.fa512a0c33dc1ca274ae1fb2cfca4ba5.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.220339e7.chunk.css.map": "/portfolio/static/css/main.220339e7.chunk.css.map",
+    "static/css/main.4bad81d3.chunk.css.map": "/portfolio/static/css/main.4bad81d3.chunk.css.map",
     "static/js/2.9825b6e7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9825b6e7.chunk.js.LICENSE.txt",
     "static/media/affirmative-action.png": "/portfolio/static/media/affirmative-action.d689fafa.png",
     "static/media/aiping_logo_black.png": "/portfolio/static/media/aiping_logo_black.4fdeb7ff.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.9825b6e7.chunk.js",
-    "static/css/main.220339e7.chunk.css",
-    "static/js/main.fb9d868f.chunk.js"
+    "static/css/main.4bad81d3.chunk.css",
+    "static/js/main.529d2dfe.chunk.js"
   ]
 }
